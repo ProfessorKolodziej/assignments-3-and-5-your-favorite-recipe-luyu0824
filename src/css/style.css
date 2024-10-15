@@ -41,15 +41,6 @@ body {
 }
 
 .instructions-section,
-.ingredients-section,
-.note-section {
-    background-color: #D7EBEF;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.instructions-section,
 .ingredients-section, .note-section {
     background-color: #D7EBEF;
     padding: 20px;
@@ -75,9 +66,13 @@ body {
     padding-left: 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
     font-family: "Caprasimo", serif;
     font-style: normal;
+}
+
+h3 {
+    font-family: "Helvetica Neue", serif;
 }
 
 h1 {
